@@ -1,2 +1,2 @@
-# Rock-Paper-Scissors-No-GUI-
+# Rock-Paper-Scissors
 Project for the TheOdinProject (TOH)
