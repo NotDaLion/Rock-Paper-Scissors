@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+
+    <div id="playArea">
+        <img width="200px" src="Images/paper-plane.png" id="player-img">
+        <span id="results"> 0 : 0 </span>
+        <img width="200px" src="Images/scissors-icon.svg" id="opp-img">
+        <p id="msg"></p>
+    </div>
+    <div id="controlArea">
+        <input type="button" value="" id="sci-btn" class="btn">
+        <input type="button" value="" id="rock-btn" class="btn">
+        <input type="button" value="" id="paper-btn" class="btn">
+        <div id="play-div">
+            <input type="button" value="Play Round" id="play-btn" class="btn">
+        </div>
+    </div>
     <script src="magic.js"></script>
 </body>
 </html>
