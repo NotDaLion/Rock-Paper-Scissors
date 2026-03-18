@@ -1,0 +1,56 @@
+#sci-btn{
+    background-image: url("Images/scissors-icon.svg");
+}
+#rock-btn{
+    background-image: url("Images/stone.png");
+}
+#paper-btn{
+    background-image: url("Images/paper-plane.png");
+}
+#play-btn{
+    width: fit-content;
+    flex: 0 1 10%;
+}
+.btn{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.selected{
+    background-color: lightgreen;
+    opacity: 0.7;
+}
+#playArea{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+#results{
+    font-size: xx-large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#msg{
+    flex-basis: 80%;
+    text-align: center;
+    font-size: x-large;
+}
+#controlArea{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#play-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
